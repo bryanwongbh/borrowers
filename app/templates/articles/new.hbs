@@ -1,1 +1,7 @@
-{{outlet}}
+<div class="center" >
+	<h1>New Article</h1>
+	{{articles/edit-form
+	  model=model
+	  save=(action save)
+	  cancel=(action cancel)}}
+</div>
