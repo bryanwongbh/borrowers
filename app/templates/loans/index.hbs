@@ -9,7 +9,10 @@
 	</thead>
 	<tbody>
 	  {{#each model as |loan|}}
-	    {{loans/loan-row loan=loan save=(action save)}}
+	    {{loans/loan-row
+	      loan=loan
+	      save=(action save)
+    	}}
 	  {{/each}}
 	</tbody>
 </table>
