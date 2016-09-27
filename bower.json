@@ -3,6 +3,7 @@
   "dependencies": {
     "ember": "~2.8.0",
     "ember-cli-shims": "0.1.1",
-    "moment": "^2.15.1"
+    "moment": "^2.15.1",
+    "borrowers-dates": "^0.0.1"
   }
 }
