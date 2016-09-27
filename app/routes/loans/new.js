@@ -7,7 +7,7 @@ export default Ember.Route.extend({
     });
   },
   resetController(controller, isExiting) {
-		console.log('------in resetController Hook for loans new-----')
+		console.log('------in resetController Hook for loans new-----');
 	  if (isExiting) {
 	    var model = controller.get('model');
 	    if (model.get('isNew')) {
