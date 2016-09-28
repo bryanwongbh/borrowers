@@ -1,5 +1,5 @@
 //
-// Mirage ships with Fajer.js which help us to create fake data
+// Mirage ships with Faker.js which help us to create fake data
 //
 // See https://github.com/marak/Faker.js/
 //
