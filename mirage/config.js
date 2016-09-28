@@ -27,5 +27,5 @@ export default function() {
   this.post('/friends');
   this.get('/friends/:id');
   this.patch('/friends/:id');
-  this.delete('/friends/:id')
+  this.delete('/friends/:id');
 }

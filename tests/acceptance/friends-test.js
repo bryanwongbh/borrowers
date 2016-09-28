@@ -10,8 +10,8 @@ moduleForAcceptance('Acceptance | friends', {
       // mock server or use createList to create many.
       //
       //
-      server.createList('friend', '10');
-    }
+    server.createList('friend', '10');
+  },
 });
 test('visiting /friends', function(assert) {
   visit('/friends');
@@ -22,6 +22,6 @@ test('visiting /friends', function(assert) {
     //
     // This will fail since we are creating 10 friends, fix it :)
     //
-    assert.equal(find('table tbody tr').length,9,'assertion');
+    assert.equal(find('table tbody tr').length,10,'assertion');
   });
 });
