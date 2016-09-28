@@ -17,7 +17,7 @@ export default Ember.Component.extend({
       if (this.get('isValid')) {
         this.get('model').save().then((friend) => {
           return this.save(friend);
-          }, (err) => {
+          }, () => {
             this.set('errorMessage', 'There was something wrong saving the model');
           });  
       } else {
